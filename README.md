@@ -1,5 +1,7 @@
 # TelepathyLabsPOC
 
+DOCKER Commands
+
 docker pull jayasreegvn/planfinder:1.0.0
 docker run -p 8080:8080 --name samplepoccontainer jayasreegvn/planfinder:1.0.0
 
@@ -9,10 +11,12 @@ Question2 + BonusQuestion
 
 API URL : http://localhost:8080/api/plans
 Type:POST
+
 Request{
 file:"D:\CodingworkArea\SamplePlanSelection.txt",
 "featuresRequired":"voice,database,admin"
 }
+
 Response
 {
     "planCost": 235,
