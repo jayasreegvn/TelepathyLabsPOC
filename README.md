@@ -11,6 +11,7 @@ Swagger URL : http://localhost:8080/swagger-ui/index.html
 Question2 + BonusQuestion
 
 API URL : http://localhost:8080/api/plans
+
 Type:POST
 
 Request{
