@@ -3,6 +3,7 @@
 DOCKER Commands
 
 docker pull jayasreegvn/planfinder:1.0.0
+
 docker run -p 8080:8080 --name samplepoccontainer jayasreegvn/planfinder:1.0.0
 
 Swagger URL : http://localhost:8080/swagger-ui/index.html
